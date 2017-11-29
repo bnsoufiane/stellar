@@ -1,0 +1,76 @@
+body {font-size:13px;line-height:1.4}
+a {outline:none !important;}
+
+.toc-container {background: #333; height: 100%; overflow-y: auto;width:240px;position:fixed;left:0;top:0}
+.doc-container {margin-left:240px;padding:10px 20px 0}
+#toc {border-top:1px solid #222;-webkit-box-shadow: inset 0  1px 0 #444;-moz-box-shadow: inset 0  1px 0 #444;box-shadow: inset 0  1px 0 #444}
+#toc ul,
+#toc li { list-style: none; margin: 0; padding: 0; border: none; line-height: 30px; }
+#toc ul ul {background:#444}
+#toc ul ul a {border-bottom-color:#333}
+#toc ul ul a {border-bottom-color:#333}
+.header { text-transform:uppercase;font-size:12px }
+.sub-header { display: none;text-transform:none }
+.sub-header li { font-size: 12px }
+.nav-list > li > a,
+.nav-list .nav-header { margin: 0px; color: #fff; text-shadow: none;border-bottom:1px solid #222;-webkit-box-shadow: 0 1px 0 #444;-moz-box-shadow: 0 1px 0 #444;box-shadow: 0 1px 0 #444}
+.nav-list > li > a:hover { background: #222 }
+.nav-list > .active > a,
+.nav-list > .active > a:hover { background: #2980b9 }
+.nav-list > li > a { padding: 10px; line-height:18px}
+.nav-list .sub-header a { padding-left:20px}
+
+.doc_section + .doc_section {margin-top:50px}
+
+h1,h2,h3,h4 {margin-bottom:10px;margin-top:0}
+h1 {font-size:28px}
+h2 {font-size:22px;padding:6px 10px 4px;border-bottom:1px solid #e3e3e3;border-top:1px solid #e3e3e3;margin:0 -20px 20px;line-height:36px;background:#f6f6f6;padding-left:30px}
+h3 {font-size:20px;font-weight:100;padding:6px 0;margin-bottom:10px;margin-top:20px;border-bottom:1px dashed #e3e3e3}
+h4 {font-size:16px;font-weight:100;text-transform:uppercase;margin-bottom:4px;padding-top:10px}
+
+.doc-header {margin-bottom:20px}
+.doc-header p {margin:0 0 2px}
+.doc-header .alert {margin-top:20px}
+.doc-subitem {padding-left:20px}
+.element-name {margin: 20px 0 0;line-height:36px}
+.element-name span {font-size:15px;text-transform:uppercase;padding:0 15px;border-width:3px 1px 0;border-style:solid;border-color:#ddd;display:inline-block;position:relative;top:2px;background:#fff}
+.element-desc {padding:10px 15px;border:1px solid #ddd;background:#fff}
+.element-desc em {display:block;margin-bottom:10px}
+
+.com { color: #93a1a1 }
+.lit { color: #195f91 }
+.pun,.opn,.clo { color: #93a1a1 }
+.fun { color: #dc322f }
+.str,.atv { color: #D14 }
+.kwd,.prettyprint .tag { color: #1e347b }
+.typ,.atn,.dec,.var { color: teal }
+.pln { color: #48484c }
+.prettyprint { padding: 8px; background-color: #f7f7f9; border: 1px solid #e1e1e8; }
+.prettyprint.linenums { -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0; -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0; box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0; }
+ol.linenums { margin: 0 0 0 33px; padding:0;/* IE indents via margin-left */ }
+ol.linenums li { padding-left: 12px; color: #bebec5; line-height: 20px; text-shadow: 0 1px 0 #fff; }
+
+hr {border-width:4px 0 0}
+
+.ext_link {display:inline-block;padding-right:16px;background: url(ext_link.png) no-repeat right 3px}
+.btn img {padding-left:5px;vertical-align:0}
+
+ul.dynatree-container {border:none}
+.tab-content {padding: 10px 10px 20px;border-bottom: 1px solid #ddd}
+
+@media (max-width: 767px) {
+    h2 {
+        padding: 6px 20px 4px;
+    }
+    .toc-container {
+        position: relative;
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+    .doc-container {
+        margin-left: 0;
+    }
+    .doc-subitem {
+        padding-left: 0;
+    }
+}

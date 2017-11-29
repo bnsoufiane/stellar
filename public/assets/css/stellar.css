@@ -1,0 +1,222 @@
+/*Modal tables Begin*/
+.modal table thead th span {
+    color: #333;
+}
+
+.modal table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+    padding: 10px 8px 5px 8px;
+}
+
+.modal table thead th:last-child {
+    border-right: 1px solid #DADADA;
+}
+
+.modal table thead span {
+    font-size: 16px;
+    display: block;
+}
+
+.modal table td {
+    border-left: 1px solid #DADADA;
+    border-bottom: 1px solid #dadada;
+    padding: 7px 8px;
+}
+
+.modal table td:last-child {
+    border-right: 1px solid #dadada;
+}
+
+.modal table tr:nth-child(2n) {
+    background: #f8f8f8;
+}
+
+.modal table .no-border th {
+    border-left: 0;
+}
+
+.modal table .no-border tr th:first-child {
+    border-left: 1px solid #dadada;
+}
+
+/*Modal tables End*/
+
+.form_small {
+    width: 50% !important;
+}
+
+.phones_input, .discontinue_tracking_reasons_input {
+    width: 80% !important;
+}
+
+.actions_button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.actions_button.add-option i {
+    color: #99805C;
+    font-size: 21px;
+}
+
+.actions_button.remove-option i {
+    color: #F29F8A;
+    font-size: 21px;
+}
+
+/* Items list */
+.list-component > ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.list-component > ul > li {
+    display: inline-block;
+    font-size: 110%;
+    background: #f5f5f5;
+    padding: 5px 8px;
+    border: 1px solid #e5e5e5;
+    border-width: 0px 2px 2px 0px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.list-component > ul > li .remove, .list-component > ul > li .remove-option, .remove-option {
+    color: #B94A48;
+    cursor: hand;
+    transition: color 0.3s ease-in-out;
+}
+
+.list-component > ul > li .remove:hover, .list-component > ul > li .remove-option:hover, .remove-option:hover {
+    color: #F0504D;
+}
+
+#datatable_patients_roster th, #datatable_regions th {
+    min-width: 150px;
+}
+
+.container-fluid:not(.inheader) {
+    overflow-y: auto !important;
+}
+
+.container-fluid:not(.inheader).dropdowns_overflow {
+    overflow: visible !important;
+}
+
+a.sign_out {
+    color: #FFF;
+    margin-top: 20%;
+    display: inline-block;
+}
+
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+    padding: 0px 4px;
+}
+
+label.control-label {
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 20%;
+}
+
+label.control-label2 {
+    width: auto;
+}
+
+label.control-label.pregnancy_report_type {
+    margin-bottom: 95px;
+}
+
+label.control-label.pregnancy_38_report_type {
+    margin-bottom: 60px;
+}
+
+label.control-label.user_activity_report_type {
+    margin-bottom: 40px;
+}
+
+input.form-control[type="text"]:not(.outreach_codes_input), input.form-control[type="password"], select.form-control:not(.input-sm) {
+    width: 50% !important;
+}
+
+input.form-control2[type="text"], input.form-control2[type="password"], select.form-control2:not(.input-sm) {
+    width: 55% !important;
+}
+
+.form-control:not(.select_multiple) {
+    font-size: 13px !important;
+    height: 33px !important;
+
+}
+
+.sepH_a {
+    margin-bottom: 5px !important;
+}
+
+.program_report label.control-label, .member_roster_report label.control-label  {
+    width: 15%;
+}
+
+.export_report_page table.dataTable thead th, .export_report_page table.dataTable thead td {
+    padding: 8px 10px;
+}
+
+.has-error .help-block {
+    position: relative;
+    left: 8px;
+}
+
+.dataTables_filter {
+    margin-right: 3px;
+}
+
+.DTTT_button {
+    top: 1px;
+}
+
+#pregnancy_fields .row + .row {
+    margin-top: 0px;
+}
+
+.remove_scheduled_row {
+    float: left;
+    position: relative;
+    top: 8px;
+    left: -6px;
+}
+
+.nopaddingtop {
+    padding-top: 0px !important;
+}
+
+.outreach_codes_input {
+    width: 10% !important;
+    margin-right: 5px;
+}
+
+.control-label.required:after {
+    content: "*";
+    color: red;
+    font-family: 'Glyphicons Halflings';
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.select_multiple {
+    height: 100% !important;
+    font-size: 13px !important;
+}
+
+.date-picker-wrapper {
+    z-index: 99;
+}
+
+input[name="eligible_for_gift_incentive"] {
+    position: relative;
+    top: 12px;
+}
